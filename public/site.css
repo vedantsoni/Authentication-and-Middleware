@@ -1,0 +1,53 @@
+* {
+	background: lightgrey;
+	
+}
+
+header {
+	border-bottom: 1px solid #AFAFAF;
+}
+
+h1, h2, h3{
+	color: firebrick;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin-bottom: 5px;
+}
+
+
+p {
+	font-size: 20px;
+	font-stretch: expanded;
+	line-height: 1.5;
+}
+
+.sectionForm{
+
+	line-height: 5px;
+	display: inline;
+}
+
+.error {
+	
+	background: firebrick;
+	border: 2px solid black;
+	display: inline-block;
+	color: white;
+}
+
+
+.section1 {
+	border: 2px solid black;
+	width: 100%;
+	text-align: left;
+	border-bottom: 2px solid black;
+	
+}
+
+footer {
+	border: 2 px solid black;
+	page-break-after: auto;
+	background-color: white;
+	text-align: center;
+	padding: 2px 2px 2px;
+	margin-top: 20px;
+}
