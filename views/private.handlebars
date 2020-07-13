@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Logout Screen</title>
+   <link rel="stylesheet" href="/public/css/site.css" type="text/css">
+</head>
+<body>
+<table class="section1">
+  <tr>
+    <th>{{sessionData.username}}</th>
+    <td class="logout-box"><a href="/logout">Not {{sessionData.username}}? Logout.</a></td>
+  </tr>
+
+  <tr>
+    <td>ID:</td>
+    <td>{{sessionData._id}}</td>
+  </tr>
+
+  <tr>
+    <td>Username:</td>
+    <td>{{sessionData.username}}</td>
+  </tr>
+  
+  <tr>
+    <td>First Name:</td>
+    <td>{{sessionData.firstName}}</td>
+  </tr>
+  <tr>
+    <td>Last Name:</td>
+    <td>{{sessionData.lastName}}</td>
+  </tr>
+  <tr>
+    <td>Profession:</td>
+    <td>{{sessionData.profession}}</td>
+  </tr>
+  <tr>
+    <td>Bio:</td>
+    <td>{{sessionData.bio}}</td>
+  </tr>
+</table>
+</body>
+</html>
